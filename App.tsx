@@ -39,7 +39,7 @@ const Header: React.FC<{ cartCount: number; onCartOpen: () => void }> = ({ cartC
     <nav className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-4 sm:px-6 md:px-8 py-2 bg-[#f2efe8]/95 backdrop-blur-sm border-b border-[#2d3a2d]/10">
       <Link to="/" className="flex items-center gap-3">
         <img
-          src="/noble-carry-logo.png"
+          src="./noble-carry-logo.png"
           alt="Noble Carry"
           className="h-14 sm:h-16 md:h-20 w-auto object-contain"
         />
