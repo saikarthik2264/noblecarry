@@ -1,6 +1,8 @@
 
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import workshopImage from '../assets/story-workshop.jpg';
+import movementImage from '../assets/story-movement.jpg';
 
 const About: React.FC = () => {
   return (
@@ -18,7 +20,7 @@ const About: React.FC = () => {
           </div>
           <div className="relative">
             <div className="rounded-[60px] overflow-hidden shadow-2xl">
-              <img src="https://images.unsplash.com/photo-1456315230246-9313b32c6c6b?q=80&w=1000" alt="Workshop Craftsmanship" className="w-full h-auto grayscale brightness-90 hover:grayscale-0 transition-all duration-1000" />
+              <img src={workshopImage} alt="Workshop Craftsmanship" className="w-full h-auto grayscale brightness-90 hover:grayscale-0 transition-all duration-1000" />
             </div>
             <div className="absolute -bottom-12 -left-12 bg-[#2d3a2d] text-white p-12 hidden md:block max-w-sm rounded-[30px] shadow-2xl">
               <p className="font-mono text-sm uppercase tracking-widest leading-loose text-white/80">
@@ -62,7 +64,7 @@ const About: React.FC = () => {
               </button>
             </div>
             <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none">
-              <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000" className="w-full h-full object-cover" alt="Movement pattern" />
+              <img src={movementImage} className="w-full h-full object-cover" alt="Movement pattern" />
             </div>
           </section>
         </div>
